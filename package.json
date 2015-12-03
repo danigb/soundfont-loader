@@ -1,11 +1,12 @@
 {
   "name": "soundfont-loader",
-  "version": "0.6.0",
+  "version": "0.1.0",
   "description": "A web audio Soundfont loader",
   "main": "index.js",
   "scripts": {
     "test": "mocha",
-    "dist": "browserify index.js > dist/soundfont-loader.js && uglifyjs dist/soundfont-loader.js > dist/soundfont-loader.min.js"
+    "dist": "browserify index.js > dist/soundfont-loader.js && uglifyjs dist/soundfont-loader.js > dist/soundfont-loader.min.js",
+    "docs": "documentation -f md index.js > API.md"
   },
   "repository": {
     "type": "git",
