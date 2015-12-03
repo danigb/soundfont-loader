@@ -1,0 +1,28 @@
+{
+  "name": "soundfont-loader",
+  "version": "0.6.0",
+  "description": "A web audio Soundfont loader",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha",
+    "dist": "browserify index.js > dist/soundfont-loader.js && uglifyjs dist/soundfont-loader.js > dist/soundfont-loader.min.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/danigb/soundfont-loader"
+  },
+  "keywords": [
+    "music",
+    "audio",
+    "webaudio",
+    "soundfont",
+    "midi"
+  ],
+  "author": "danigb <danigb@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/danigb/soundfont-loader/issues"
+  },
+  "dependencies": {
+  }
+}
